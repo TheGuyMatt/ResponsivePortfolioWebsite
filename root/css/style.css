@@ -1,4 +1,17 @@
-* {
+*
+{
   margin: 0;
   padding: 0;
+}
+
+.homeHeader
+{
+  height: 100px;
+  width: auto;
+  background-color: #000000;
+}
+
+.homeHeader h1
+{
+  color: #FFFFFF;
 }
