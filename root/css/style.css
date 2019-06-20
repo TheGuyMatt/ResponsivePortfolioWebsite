@@ -1,9 +1,12 @@
+:root
+{
+  --background: rgb(34, 34, 34);
+}
+
 *
 {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
 }
 
 body
@@ -11,41 +14,57 @@ body
   background-image: url("../img/swiftCode.jpg");
   background-size: cover;
   background-position: center;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
 .header
 {
-  height: 80px;
   width: 100%;
-  background-color: #222222;
-  display: block;
+  background-color: var(--background);
+  opacity: 0.95;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
 }
 
 .logo
 {
-  width: 180px;
-  height: auto;
-  outline: 1px solid #FFFFFF;
-}
-
-.logo h1
-{
+  margin: initial;
   font-family: garamond;
   font-weight: lighter;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
 }
 
-.logo h1 span
+.logo span
 {
   font-weight: bold;
+}
+
+.nav
+{
+  position: absolute;
+  text-align: left;
+  top: 100%;
+}
+
+.nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li
+{
+  margin-bottom: 1em;
+  margin-left: 1em;
 }
 
 .site
 {
   width: 100%;
   height: 1000px;
-  background-color: #222222;
+  background-color: var(--background);
   opacity: 0.5;
 }
 
@@ -53,6 +72,6 @@ body
 {
   height: 80px;
   width: 100%;
-  background-color: #222222;
+  background-color: var(--background);
   display: block;
 }
