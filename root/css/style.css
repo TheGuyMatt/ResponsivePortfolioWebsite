@@ -2,6 +2,8 @@
 {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body
@@ -12,30 +14,45 @@ body
   background-color: #ffffff;
 }
 
-.homeHeader
+.header
 {
-  height: 75px;
+  height: 80px;
   width: 100%;
-  background-color: #323232;
+  background-color: #222222;
+  display: block;
 }
 
-.homeHeader h1
+.logo
 {
-  color: #ffffff;
-  font-family: Georgia, serif;
+  width: 180px;
+  height: auto;
+  outline: 1px solid #FFFFFF;
 }
 
-.homeSection
+.logo h1
+{
+  font-family: garamond;
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+
+.logo h1 span
+{
+  font-weight: bold;
+}
+
+.site
 {
   width: 100%;
   height: 1000px;
-  background-color: #323232;
+  background-color: #222222;
   opacity: 0.5;
 }
 
-.homeFooter
+.footer
 {
-  height: 75px;
+  height: 80px;
   width: 100%;
-  background-color: #323232;
+  background-color: #222222;
+  display: block;
 }
