@@ -29,10 +29,10 @@ body
 
 .logo
 {
-  margin: initial;
+  margin: 15px;
   font-family: garamond;
   font-weight: lighter;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .logo span
@@ -45,6 +45,9 @@ body
   position: absolute;
   text-align: left;
   top: 100%;
+  background-color: var(--background);
+  opacity: 0.95;
+  width: 100%;
 }
 
 .nav ul
@@ -58,6 +61,19 @@ body
 {
   margin-bottom: 1em;
   margin-left: 1em;
+}
+
+.nav a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.nav a:hover
+{
+  color: black;
 }
 
 .site
