@@ -21,7 +21,6 @@ body
 {
   width: 100%;
   background-color: var(--background);
-  opacity: 0.95;
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -46,8 +45,8 @@ body
   text-align: left;
   top: 100%;
   background-color: var(--background);
-  opacity: 0.95;
   width: 100%;
+  display: none;
 }
 
 .nav ul
@@ -74,6 +73,11 @@ body
 .nav a:hover
 {
   color: black;
+}
+
+.nav-toggle:checked ~ .nav
+{
+  display: block;
 }
 
 .site
