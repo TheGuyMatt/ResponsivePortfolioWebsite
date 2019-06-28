@@ -152,6 +152,7 @@ body
   height: 100%;
   padding-top: 80px;
   box-sizing: border-box;
+  transform-style: preserve-3d;
 }
 
 .parallax-wrapper::before
@@ -164,6 +165,7 @@ body
   background-image: url("../img/swiftCode.jpg");
   position: absolute;
   z-index: -1;
+  transform: translateZ(-1px) scale(2);
 }
 
 .wrapper
