@@ -1,6 +1,6 @@
 :root
 {
-  --background: rgb(34, 34, 34);
+  --background: rgb(17, 17, 17);
 }
 
 *
@@ -11,10 +11,10 @@
 
 body
 {
-  background-image: url("../img/swiftCode.jpg");
+  /*background-image: url("../img/swiftCode.jpg");*/
   background-size: cover;
   background-position: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .header
@@ -122,7 +122,7 @@ body
 
 .nav a:hover
 {
-  color: black;
+  color: grey;
 }
 
 .nav-toggle:checked ~ .nav
@@ -148,9 +148,20 @@ body
   height: 600px;
   line-height: 600px;
   margin-top: 200px;
-  background: var(--background);
+  /*background: var(--background);*/
+  background: transparent;
   opacity: 0.9;
   text-align: center;
+}
+
+.content h1
+{
+  color: white;
+  font-family: Georgia, serif;
+  /*font-size: 1.5em;*/
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .content p
@@ -222,7 +233,7 @@ body
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: grey;
     position: absolute;
     bottom: -0.75em;
     left: 0;
